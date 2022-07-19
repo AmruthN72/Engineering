@@ -1,0 +1,4 @@
+Cyclone
+Earthquake
+Flood
+Wildfire

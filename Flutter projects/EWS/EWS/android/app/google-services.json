@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "131976379060",
+    "project_id": "ews--natural-disasters",
+    "storage_bucket": "ews--natural-disasters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131976379060:android:9dbfbf39f9c5a66c0f75e1",
+        "android_client_info": {
+          "package_name": "com.example.tflite_image_classification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131976379060-atc5qqhj5qpe9emhi3cab32jv4qbf9qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtdLIBoKqaAE5UkexmIzJfIGYA6NPhZW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131976379060-atc5qqhj5qpe9emhi3cab32jv4qbf9qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
