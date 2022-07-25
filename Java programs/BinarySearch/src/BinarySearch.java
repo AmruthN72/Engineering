@@ -1,7 +1,7 @@
 public class BinarySearch {
     static int binarySearch(int[] array,int target){
 
-        int i=0,j = array.length,mid;
+        int i=0,j = array.length-1,mid;
         while (i<= j){
             mid = i+((j-i))/2;
             if (array[mid] == target){
