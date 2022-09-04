@@ -51,7 +51,16 @@ public class Sort {
         }
     }
 
+    static void cylicSort(int[] array){
+        int i =0;
+        while (i<array.length){
+            if (array[i] != i+1){
+                swap(array,i,array[i]-1);
+            }
 
+            else i++;
+        }
+    }
     static void swap(int[] array, int i, int j){
         int temp = array[i];
         array[i] = array[j];
@@ -69,8 +78,8 @@ public class Sort {
 
     public static void main(String[] args) {
 
-        int[] a = {5, 3, 2, 0, 1};
-        insertionSort(a);
+        int[] a = {5, 3, 2, 4, 1};
+        cylicSort(a);
         System.out.println(Arrays.toString(a));
     }
 }

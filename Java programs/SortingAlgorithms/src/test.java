@@ -1,38 +1,15 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class test {
 
-    static int beautyContest(int k, int []a, int []b) {
-        // Write your code here.
-        int i =0;
-        int j=1;
-int count=0;
-        while ( i < a.length ){
 
-            if (a[i] -b[i]>b[j]-a[j])
-            {
-                count++;
-                j++;
-            }
-            else j++;
-            if (j== a.length) {
-                if (i+2<a.length) {
-                    j = i + 2;
-                    i++;
-                }
-                else break;
-            }
-        }
-        if (count>=k)
-            return 1;
-        return 0;
-    }
+
 
     public static void main(String[] args) {
-        int[] a = {4,1,7,2};
-        int[] b ={2,1,3,4};
-        System.out.println(beautyContest(4,a,b));
+
     }
 }
 
